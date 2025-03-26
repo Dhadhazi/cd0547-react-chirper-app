@@ -2,7 +2,7 @@ import { useEffect, Fragment } from "react";
 import { connect } from "react-redux";
 import { handleInitialData } from "../actions/shared";
 import Dashboard from "./Dashboard";
-import LoadingBar from "react-redux-loading-bar";
+import LoadingBar from "./LoadingBar";
 import NewTweet from "./NewTweet";
 import TweetPage from "./TweetPage";
 import Nav from "./Nav";
